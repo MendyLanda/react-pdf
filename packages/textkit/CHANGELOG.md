@@ -1,5 +1,11 @@
 # @rpdf/textkit
 
+## 6.1.0
+
+### Minor Changes
+
+- [`3bd1a794`](https://github.com/diegomura/react-pdf/commit/3bd1a7946e71c5c33d6d235b5711a63e2a0a8304) Thanks [@stefanwittwer](https://github.com/stefanwittwer)! - Add support for fontFeatureSettings to customize ligatures, tabular number display, and other font features
+
 ## 6.0.0
 
 ### Major Changes
