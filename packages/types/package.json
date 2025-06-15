@@ -1,6 +1,6 @@
 {
   "name": "@rpdf/types",
-  "version": "2.9.1",
+  "version": "2.10.0",
   "license": "MIT",
   "description": "React-pdf TypeScript definitions",
   "author": "Mendy Landa <landamendy@gmail.com>",
@@ -12,8 +12,8 @@
     "directory": "packages/types"
   },
   "dependencies": {
-    "@rpdf/font": "^4.0.3",
+    "@rpdf/font": "^4.0.4",
     "@rpdf/primitives": "^4.1.1",
-    "@rpdf/stylesheet": "^6.1.1"
+    "@rpdf/stylesheet": "^6.1.2"
   }
 }
