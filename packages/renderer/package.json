@@ -1,10 +1,10 @@
 {
-  "name": "@react-pdf/renderer",
+  "name": "@rpdf/renderer",
   "version": "4.3.0",
   "license": "MIT",
   "description": "Create PDF files on the browser and server",
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "author": "Mendy Landa <landamendy@gmail.com>",
+  "homepage": "https://github.com/mendylanda/react-pdf#readme",
   "type": "module",
   "main": "./lib/react-pdf.js",
   "browser": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "https://github.com/mendylanda/react-pdf.git",
     "directory": "packages/renderer"
   },
   "scripts": {
@@ -24,14 +24,14 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.20.13",
-    "@react-pdf/fns": "3.1.2",
-    "@react-pdf/font": "^4.0.2",
-    "@react-pdf/layout": "^4.4.0",
-    "@react-pdf/pdfkit": "^4.0.3",
-    "@react-pdf/primitives": "^4.1.1",
-    "@react-pdf/reconciler": "^1.1.4",
-    "@react-pdf/render": "^4.3.0",
-    "@react-pdf/types": "^2.9.0",
+    "@rpdf/fns": "3.1.2",
+    "@rpdf/font": "^4.0.2",
+    "@rpdf/layout": "^4.4.0",
+    "@rpdf/pdfkit": "^4.0.3",
+    "@rpdf/primitives": "^4.1.1",
+    "@rpdf/reconciler": "^1.1.4",
+    "@rpdf/render": "^4.3.0",
+    "@rpdf/types": "^2.9.0",
     "events": "^3.3.0",
     "object-assign": "^4.1.1",
     "prop-types": "^15.6.2",

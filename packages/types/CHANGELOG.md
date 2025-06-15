@@ -1,4 +1,4 @@
-# @react-pdf/types
+# @rpdf/types
 
 ## 2.9.0
 
@@ -9,16 +9,16 @@
 ### Patch Changes
 
 - Updated dependencies [[`f89f75c1`](https://github.com/diegomura/react-pdf/commit/f89f75c1f132ba19b54847c3ac23efec675f8d0a)]:
-  - @react-pdf/stylesheet@6.1.0
-  - @react-pdf/font@4.0.2
+  - @rpdf/stylesheet@6.1.0
+  - @rpdf/font@4.0.2
 
 ## 2.8.2
 
 ### Patch Changes
 
 - Updated dependencies [[`e257f7ee`](https://github.com/diegomura/react-pdf/commit/e257f7ee18ff09f4895cd16c0b21b824678384c8)]:
-  - @react-pdf/font@4.0.1
-  - @react-pdf/stylesheet@6.0.2
+  - @rpdf/font@4.0.1
+  - @rpdf/stylesheet@6.0.2
 
 ## 2.8.1
 
@@ -27,8 +27,8 @@
 - [#3087](https://github.com/diegomura/react-pdf/pull/3087) [`7cd66e4f`](https://github.com/diegomura/react-pdf/commit/7cd66e4fc37cd1393adc6250a919fe2629812082) Thanks [@diegomura](https://github.com/diegomura)! - fix: font exported types
 
 - Updated dependencies [[`2a4f1bfc`](https://github.com/diegomura/react-pdf/commit/2a4f1bfca6b84e6c6bbde683447ce8079a1febbe), [`7cd66e4f`](https://github.com/diegomura/react-pdf/commit/7cd66e4fc37cd1393adc6250a919fe2629812082), [`bfb51ec0`](https://github.com/diegomura/react-pdf/commit/bfb51ec09b851c52659ce16fed1286173e9516a9), [`a2de2685`](https://github.com/diegomura/react-pdf/commit/a2de2685b25c797f266775c2e35a6535090393b7), [`24690f52`](https://github.com/diegomura/react-pdf/commit/24690f5238e4eacf28351cf9996856a7d196d29e), [`481b536f`](https://github.com/diegomura/react-pdf/commit/481b536f4ad145fb227829399b85a35838a506f8)]:
-  - @react-pdf/stylesheet@6.0.1
-  - @react-pdf/font@4.0.0
+  - @rpdf/stylesheet@6.0.1
+  - @rpdf/font@4.0.0
 
 ## 2.8.0
 
@@ -43,9 +43,9 @@
 - [#3067](https://github.com/diegomura/react-pdf/pull/3067) [`96c2464d`](https://github.com/diegomura/react-pdf/commit/96c2464dfaa7294e0d79b7ed64743bfd7b1a8c72) Thanks [@diegomura](https://github.com/diegomura)! - refactor: convert primitives package to TS
 
 - Updated dependencies [[`96c2464d`](https://github.com/diegomura/react-pdf/commit/96c2464dfaa7294e0d79b7ed64743bfd7b1a8c72), [`24fe4bf8`](https://github.com/diegomura/react-pdf/commit/24fe4bf894fff055121926488b30d0bf212a9c45), [`700535c5`](https://github.com/diegomura/react-pdf/commit/700535c57ff1b105d923be70f4fc4bfdf4479f91)]:
-  - @react-pdf/primitives@4.1.1
-  - @react-pdf/stylesheet@6.0.0
-  - @react-pdf/font@3.1.0
+  - @rpdf/primitives@4.1.1
+  - @rpdf/stylesheet@6.0.0
+  - @rpdf/font@3.1.0
 
 ## 2.7.1
 

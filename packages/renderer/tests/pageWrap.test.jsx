@@ -1,13 +1,6 @@
 import { describe, expect, test } from 'vitest';
 
-import {
-  Document,
-  Font,
-  Page,
-  Text,
-  Image,
-  StyleSheet,
-} from '@react-pdf/renderer';
+import { Document, Font, Page, Text, Image, StyleSheet } from '@rpdf/renderer';
 import renderToImage from './renderComponent';
 
 const styles = StyleSheet.create({

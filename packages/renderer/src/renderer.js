@@ -1,4 +1,4 @@
-import Reconciler from '@react-pdf/reconciler';
+import Reconciler from '@rpdf/reconciler';
 
 const createInstance = (type, { style, children, ...props }) => ({
   type,

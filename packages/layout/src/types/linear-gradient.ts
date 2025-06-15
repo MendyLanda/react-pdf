@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import { Transform } from '@react-pdf/stylesheet';
+import * as P from '@rpdf/primitives';
+import { Transform } from '@rpdf/stylesheet';
 
 import { SafeStopNode, StopNode } from './stop';
 interface LinearGradientProps {

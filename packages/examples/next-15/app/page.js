@@ -6,7 +6,7 @@ import {
   PDFViewer,
   PDFDownloadLink,
   Text,
-} from '@react-pdf/renderer';
+} from '@rpdf/renderer';
 
 export default function Home() {
   const doc = (

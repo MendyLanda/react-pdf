@@ -1,4 +1,4 @@
-import { parseFloat } from '@react-pdf/fns';
+import { parseFloat } from '@rpdf/fns';
 import { Viewbox } from '../types';
 
 const parseViewbox = (value?: string | Viewbox) => {

@@ -1,5 +1,5 @@
-import { evolve, matchPercent } from '@react-pdf/fns';
-import { SafeStyle } from '@react-pdf/stylesheet';
+import { evolve, matchPercent } from '@rpdf/fns';
+import { SafeStyle } from '@rpdf/stylesheet';
 
 import { SafeDocumentNode, SafePageNode } from '../types';
 

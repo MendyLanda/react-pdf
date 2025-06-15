@@ -3,7 +3,7 @@ import {
   SafeListNode,
   SafeSelectNode,
   SafeTextInputNode,
-} from '@react-pdf/layout';
+} from '@rpdf/layout';
 import { Context } from '../types';
 
 const clean = (options: Record<string, any>) => {

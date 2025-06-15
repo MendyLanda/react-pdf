@@ -5,7 +5,7 @@ import {
   processUnitValue,
 } from './utils';
 
-import { matchPercent } from '@react-pdf/fns';
+import { matchPercent } from '@rpdf/fns';
 
 import castInt from '../utils/castInt';
 import transformUnit from '../utils/units';

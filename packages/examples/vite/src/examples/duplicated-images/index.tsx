@@ -1,5 +1,5 @@
 import React from 'react';
-import { Document, Page, Image, StyleSheet } from '@react-pdf/renderer';
+import { Document, Page, Image, StyleSheet } from '@rpdf/renderer';
 
 import Quijote1 from '../../../public/quijote1.jpg';
 

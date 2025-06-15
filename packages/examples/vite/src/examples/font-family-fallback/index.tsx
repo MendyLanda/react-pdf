@@ -1,5 +1,5 @@
 import React from 'react';
-import { Document, Page, Text, StyleSheet, Font } from '@react-pdf/renderer';
+import { Document, Page, Text, StyleSheet, Font } from '@rpdf/renderer';
 
 import RobotoFont from '../../../public/Roboto-Regular.ttf';
 import RobotoBoldFont from '../../../public/Roboto-Bold.ttf';

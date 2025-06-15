@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Svg, Path } from '@react-pdf/renderer';
+import { Svg, Path } from '@rpdf/renderer';
 
 const Star = () => (
   <Svg width={16} height={16} viewBox="0 0 16 16">

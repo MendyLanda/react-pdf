@@ -1,5 +1,5 @@
 import React from 'react';
-import { Document, Page, View } from '@react-pdf/renderer';
+import { Document, Page, View } from '@rpdf/renderer';
 
 const Box = ({ origin }) => (
   <View

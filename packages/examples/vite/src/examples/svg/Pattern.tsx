@@ -1,5 +1,5 @@
 import React from 'react';
-import { Svg, G, Path } from '@react-pdf/renderer';
+import { Svg, G, Path } from '@rpdf/renderer';
 
 const Chart = () => {
   return (

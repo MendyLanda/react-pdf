@@ -1,4 +1,4 @@
-# @react-pdf/image
+# @rpdf/image
 
 ## 3.0.3
 
@@ -31,7 +31,7 @@
 - [#2877](https://github.com/diegomura/react-pdf/pull/2877) [`fdcef566`](https://github.com/diegomura/react-pdf/commit/fdcef5666e4eeed542b625d394cdfe60d6346600) Thanks [@Friendseeker](https://github.com/Friendseeker)! - chore: bump jay-peg
 
 - Updated dependencies [[`70f29a04`](https://github.com/diegomura/react-pdf/commit/70f29a0407b1d56e9a7932b25c0d69132e9b4119)]:
-  - @react-pdf/png-js@3.0.0
+  - @rpdf/png-js@3.0.0
 
 ## 2.3.6
 
@@ -52,7 +52,7 @@
 - [#2605](https://github.com/diegomura/react-pdf/pull/2605) [`f7505ed`](https://github.com/diegomura/react-pdf/commit/f7505ed453a1a0ae960d0e5e4a1d155803861b71) Thanks [@wojtekmaj](https://github.com/wojtekmaj)! - fix: fix CJS compatibility
 
 - Updated dependencies [[`f7505ed`](https://github.com/diegomura/react-pdf/commit/f7505ed453a1a0ae960d0e5e4a1d155803861b71)]:
-  - @react-pdf/png-js@2.3.1
+  - @rpdf/png-js@2.3.1
 
 ## 2.3.3
 
@@ -83,7 +83,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`b6a14fd`](https://github.com/diegomura/react-pdf/commit/b6a14fd160fab26a49f798e5294b0e361e67fe37)]:
-  - @react-pdf/png-js@2.3.0
+  - @rpdf/png-js@2.3.0
 
 ## 2.2.3
 
@@ -112,7 +112,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`a5a933c`](https://github.com/diegomura/react-pdf/commit/a5a933c9733e4c77338ef76a2b3545b84a646a81), [`001a208`](https://github.com/diegomura/react-pdf/commit/001a20812fa039d09931b22eb97a8869e3b31cc5)]:
-  - @react-pdf/png-js@2.2.0
+  - @rpdf/png-js@2.2.0
 
 ## 2.1.1
 
@@ -133,4 +133,4 @@
 - [#1581](https://github.com/diegomura/react-pdf/pull/1581) [`04449ab`](https://github.com/diegomura/react-pdf/commit/04449ab352db0cca2155024dd3e8c690e42193ca) Thanks [@jeetiss](https://github.com/jeetiss)! - added changelog with changesets
 
 - Updated dependencies [[`4c5d527`](https://github.com/diegomura/react-pdf/commit/4c5d52721d29d843f1d09c3fd74370832429f70e), [`04449ab`](https://github.com/diegomura/react-pdf/commit/04449ab352db0cca2155024dd3e8c690e42193ca)]:
-  - @react-pdf/png-js@2.1.0
+  - @rpdf/png-js@2.1.0

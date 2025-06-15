@@ -1,4 +1,4 @@
-import { last } from '@react-pdf/fns';
+import { last } from '@rpdf/fns';
 
 import runTrailingOffset from '../run/trailingOffset';
 import { AttributedString } from '../types';

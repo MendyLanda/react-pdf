@@ -1,4 +1,4 @@
-import { isNil, matchPercent } from '@react-pdf/fns';
+import { isNil, matchPercent } from '@rpdf/fns';
 import { Origin, SafeNode } from '../types';
 
 const getTransformStyle =

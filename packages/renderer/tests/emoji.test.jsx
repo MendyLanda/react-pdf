@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
 
-import { Document, Page, Text, Font } from '@react-pdf/renderer';
+import { Document, Page, Text, Font } from '@rpdf/renderer';
 import renderToImage from './renderComponent';
 
 describe('emoji', () => {

@@ -1,4 +1,4 @@
-import { isNil, matchPercent } from '@react-pdf/fns';
+import { isNil, matchPercent } from '@rpdf/fns';
 
 import { SafeDocumentNode, SafeNode, SafePageNode } from '../types';
 

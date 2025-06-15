@@ -16,7 +16,7 @@ const logError = (style: any, value: any) => {
 
   // eslint-disable-next-line no-console
   console.error(`
-    @react-pdf/stylesheet parsing error:
+    @rpdf/stylesheet parsing error:
     ${name}: ${value},
     ${' '.repeat(name.length + 2)}^
     Unsupported ${name} value format

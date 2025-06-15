@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert';
 import { test } from 'node:test';
 import { jsx } from 'react/jsx-runtime';
-import { Document, Page, Text, renderToBuffer } from '@react-pdf/renderer';
+import { Document, Page, Text, renderToBuffer } from '@rpdf/renderer';
 
 const MyDocument = () =>
   jsx(Document, {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Document, Page, Image } from '@react-pdf/renderer';
+import { Document, Page, Image } from '@rpdf/renderer';
 
 const IMAGES = [
   'https://images.unsplash.com/photo-1726557116827-5f2a95d57cab?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',

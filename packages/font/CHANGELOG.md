@@ -1,12 +1,12 @@
-# @react-pdf/font
+# @rpdf/font
 
 ## 4.0.2
 
 ### Patch Changes
 
 - Updated dependencies [[`f89f75c1`](https://github.com/diegomura/react-pdf/commit/f89f75c1f132ba19b54847c3ac23efec675f8d0a), [`106699e8`](https://github.com/diegomura/react-pdf/commit/106699e850dad2285e6999d59975111f217e8a81)]:
-  - @react-pdf/types@2.9.0
-  - @react-pdf/pdfkit@4.0.3
+  - @rpdf/types@2.9.0
+  - @rpdf/pdfkit@4.0.3
 
 ## 4.0.1
 
@@ -15,7 +15,7 @@
 - [`e257f7ee`](https://github.com/diegomura/react-pdf/commit/e257f7ee18ff09f4895cd16c0b21b824678384c8) Thanks [@diegomura](https://github.com/diegomura)! - fix: font store types
 
 - Updated dependencies []:
-  - @react-pdf/types@2.8.2
+  - @rpdf/types@2.8.2
 
 ## 4.0.0
 
@@ -32,7 +32,7 @@
 - [#3092](https://github.com/diegomura/react-pdf/pull/3092) [`481b536f`](https://github.com/diegomura/react-pdf/commit/481b536f4ad145fb227829399b85a35838a506f8) Thanks [@diegomura](https://github.com/diegomura)! - refactor: convert layout package to TS
 
 - Updated dependencies [[`7cd66e4f`](https://github.com/diegomura/react-pdf/commit/7cd66e4fc37cd1393adc6250a919fe2629812082)]:
-  - @react-pdf/types@2.8.1
+  - @rpdf/types@2.8.1
 
 ## 3.1.0
 
@@ -43,14 +43,14 @@
 ### Patch Changes
 
 - Updated dependencies [[`96c2464d`](https://github.com/diegomura/react-pdf/commit/96c2464dfaa7294e0d79b7ed64743bfd7b1a8c72), [`24fe4bf8`](https://github.com/diegomura/react-pdf/commit/24fe4bf894fff055121926488b30d0bf212a9c45), [`700535c5`](https://github.com/diegomura/react-pdf/commit/700535c57ff1b105d923be70f4fc4bfdf4479f91)]:
-  - @react-pdf/types@2.8.0
+  - @rpdf/types@2.8.0
 
 ## 3.0.2
 
 ### Patch Changes
 
 - Updated dependencies [[`01944231`](https://github.com/diegomura/react-pdf/commit/01944231a342d502b832aeecb4c313020b8360c8)]:
-  - @react-pdf/types@2.7.1
+  - @rpdf/types@2.7.1
 
 ## 3.0.1
 
@@ -67,21 +67,21 @@
 ### Patch Changes
 
 - Updated dependencies [[`46c3047d`](https://github.com/diegomura/react-pdf/commit/46c3047de56ae82f062b72c4910a4e6096eee99f), [`55973278`](https://github.com/diegomura/react-pdf/commit/55973278ac8bc8f703b63844f57d6f155ae8d86f)]:
-  - @react-pdf/types@2.7.0
+  - @rpdf/types@2.7.0
 
 ## 2.5.2
 
 ### Patch Changes
 
 - Updated dependencies [[`8e6a832`](https://github.com/diegomura/react-pdf/commit/8e6a8320f86354aff950c296a96bc41a33e9dab2), [`4bafab8`](https://github.com/diegomura/react-pdf/commit/4bafab8455c9003759f48bad20a720baf4ed189b)]:
-  - @react-pdf/types@2.6.0
+  - @rpdf/types@2.6.0
 
 ## 2.5.1
 
 ### Patch Changes
 
 - Updated dependencies [[`22a34a9`](https://github.com/diegomura/react-pdf/commit/22a34a91b16a201cd8288e0dbea9368b12ca73f5)]:
-  - @react-pdf/types@2.5.0
+  - @rpdf/types@2.5.0
 
 ## 2.5.0
 
@@ -100,21 +100,21 @@
 ### Patch Changes
 
 - Updated dependencies [[`9af07fe`](https://github.com/diegomura/react-pdf/commit/9af07feb59c2fe9c1d8960ac95f6fa6e03d16235)]:
-  - @react-pdf/types@2.4.1
+  - @rpdf/types@2.4.1
 
 ## 2.4.2
 
 ### Patch Changes
 
 - Updated dependencies [[`fb5273d`](https://github.com/diegomura/react-pdf/commit/fb5273d8d80d919f7b9c214e02d67b79ce23fa19)]:
-  - @react-pdf/types@2.4.0
+  - @rpdf/types@2.4.0
 
 ## 2.4.1
 
 ### Patch Changes
 
 - Updated dependencies [[`9e5842b`](https://github.com/diegomura/react-pdf/commit/9e5842bbecca6e249af2c5fc50078bb7ddd5420f)]:
-  - @react-pdf/types@2.3.6
+  - @rpdf/types@2.3.6
 
 ## 2.4.0
 
@@ -129,28 +129,28 @@
 - [#2467](https://github.com/diegomura/react-pdf/pull/2467) [`1f987cc`](https://github.com/diegomura/react-pdf/commit/1f987cc27c3fd1ef1b6748ebe58a289a78b538d2) Thanks [@JaeSeoKim](https://github.com/JaeSeoKim)! - feat: add withVariationSelectors option to registerEmojiSource [#2466](https://github.com/diegomura/react-pdf/issues/2466)
 
 - Updated dependencies [[`e5c8fde`](https://github.com/diegomura/react-pdf/commit/e5c8fde9379a9a85ecac7e3d6273953e39d65f8d), [`1f987cc`](https://github.com/diegomura/react-pdf/commit/1f987cc27c3fd1ef1b6748ebe58a289a78b538d2), [`4c40b14`](https://github.com/diegomura/react-pdf/commit/4c40b149cfed42f2513e1dd330a92ccc3363c04f)]:
-  - @react-pdf/types@2.3.5
+  - @rpdf/types@2.3.5
 
 ## 2.3.7
 
 ### Patch Changes
 
 - Updated dependencies [[`4a55c1b`](https://github.com/diegomura/react-pdf/commit/4a55c1b2ed19e460ccae6e749ed94c16729a23c4)]:
-  - @react-pdf/types@2.3.4
+  - @rpdf/types@2.3.4
 
 ## 2.3.6
 
 ### Patch Changes
 
 - Updated dependencies [[`1e1fbdc`](https://github.com/diegomura/react-pdf/commit/1e1fbdc3c33ced46d8c7ebba7a196733cb789d59), [`8636812`](https://github.com/diegomura/react-pdf/commit/86368122ed87621d19ae3bc248080e17703d9fcb)]:
-  - @react-pdf/types@2.3.3
+  - @rpdf/types@2.3.3
 
 ## 2.3.5
 
 ### Patch Changes
 
 - Updated dependencies [[`a25dbcb`](https://github.com/diegomura/react-pdf/commit/a25dbcb32b65c300f5b088e8b210bb0c1abca5c2)]:
-  - @react-pdf/types@2.3.2
+  - @rpdf/types@2.3.2
 
 ## 2.3.4
 
@@ -159,14 +159,14 @@
 - [#2252](https://github.com/diegomura/react-pdf/pull/2252) [`47e91cb`](https://github.com/diegomura/react-pdf/commit/47e91cbd8016046bb4e8389ba0d1c7ede9edce59) Thanks [@jeetiss](https://github.com/jeetiss)! - implement function as emoji source to build more complex urls
 
 - Updated dependencies [[`47e91cb`](https://github.com/diegomura/react-pdf/commit/47e91cbd8016046bb4e8389ba0d1c7ede9edce59)]:
-  - @react-pdf/types@2.3.1
+  - @rpdf/types@2.3.1
 
 ## 2.3.3
 
 ### Patch Changes
 
 - Updated dependencies [[`2db67a3`](https://github.com/diegomura/react-pdf/commit/2db67a38b9be98b7816a2b5aa4733446b95e3724)]:
-  - @react-pdf/types@2.3.0
+  - @rpdf/types@2.3.0
 
 ## 2.3.2
 
@@ -201,7 +201,7 @@
 - [#1909](https://github.com/diegomura/react-pdf/pull/1909) [`3acf53b`](https://github.com/diegomura/react-pdf/commit/3acf53b45200fa1415315f7dc22cc4b84a6b54c6) Thanks [@diegomura](https://github.com/diegomura)! - fix: font store load method skip loading
 
 - Updated dependencies [[`0fcc594`](https://github.com/diegomura/react-pdf/commit/0fcc594310d5af30ca1e752b3efc7a047e813dcb)]:
-  - @react-pdf/fontkit@2.1.2
+  - @rpdf/fontkit@2.1.2
 
 ## 2.2.0
 
@@ -212,7 +212,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`fe0f214`](https://github.com/diegomura/react-pdf/commit/fe0f214dbbf2f632b852ebfe65f886ecc4dd6953)]:
-  - @react-pdf/types@2.0.9
+  - @rpdf/types@2.0.9
 
 ## 2.1.1
 
@@ -233,5 +233,5 @@
 - [#1581](https://github.com/diegomura/react-pdf/pull/1581) [`04449ab`](https://github.com/diegomura/react-pdf/commit/04449ab352db0cca2155024dd3e8c690e42193ca) Thanks [@jeetiss](https://github.com/jeetiss)! - added changelog with changesets
 
 - Updated dependencies [[`3217a89`](https://github.com/diegomura/react-pdf/commit/3217a892e92ff98e92b6c7ea6e3244d403f679b6), [`4c5d527`](https://github.com/diegomura/react-pdf/commit/4c5d52721d29d843f1d09c3fd74370832429f70e), [`04449ab`](https://github.com/diegomura/react-pdf/commit/04449ab352db0cca2155024dd3e8c690e42193ca), [`ccf3bf2`](https://github.com/diegomura/react-pdf/commit/ccf3bf22867a9bd49668cdd3543ec32492a40e4b)]:
-  - @react-pdf/fontkit@2.1.0
-  - @react-pdf/types@2.0.8
+  - @rpdf/fontkit@2.1.0
+  - @rpdf/types@2.0.8

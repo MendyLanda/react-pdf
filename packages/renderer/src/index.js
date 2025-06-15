@@ -1,8 +1,8 @@
-import FontStore from '@react-pdf/font';
-import renderPDF from '@react-pdf/render';
-import PDFDocument from '@react-pdf/pdfkit';
-import layoutDocument from '@react-pdf/layout';
-import { upperFirst } from '@react-pdf/fns';
+import FontStore from '@rpdf/font';
+import renderPDF from '@rpdf/render';
+import PDFDocument from '@rpdf/pdfkit';
+import layoutDocument from '@rpdf/layout';
+import { upperFirst } from '@rpdf/fns';
 
 import { omitNils } from './utils';
 import createRenderer from './renderer';
@@ -124,8 +124,8 @@ const pdf = (initialValue) => {
   /*
    * TODO: remove this method in next major release. it is buggy
    * see
-   * - https://github.com/diegomura/react-pdf/issues/2112
-   * - https://github.com/diegomura/react-pdf/issues/2095
+   * - https://github.com/mendylanda/react-pdf/issues/2112
+   * - https://github.com/mendylanda/react-pdf/issues/2095
    */
   const toString = async () => {
     if (process.env.NODE_ENV === 'development') {

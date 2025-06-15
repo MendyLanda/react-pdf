@@ -1,5 +1,5 @@
-import { SafeStyle, Style } from '@react-pdf/stylesheet';
-import * as P from '@react-pdf/primitives';
+import { SafeStyle, Style } from '@rpdf/stylesheet';
+import * as P from '@rpdf/primitives';
 import { YogaNode } from 'yoga-layout/load';
 
 import type { Box, NodeProps, Origin } from './base';

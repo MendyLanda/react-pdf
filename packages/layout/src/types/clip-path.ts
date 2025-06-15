@@ -1,4 +1,4 @@
-import * as P from '@react-pdf/primitives';
+import * as P from '@rpdf/primitives';
 
 import { LineNode, SafeLineNode } from './line';
 import { PolylineNode, SafePolylineNode } from './polyline';

@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/textkit",
+  "name": "@rpdf/textkit",
   "license": "MIT",
   "version": "6.0.0",
   "description": "An advanced text layout framework",
@@ -8,12 +8,12 @@
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "https://github.com/mendylanda/react-pdf.git",
     "directory": "packages/textkit"
   },
   "contributors": [
     "Devon Govett <devongovett@gmail.com>",
-    "Diego Muracciole <diegomuracciole@gmail.com>"
+    "Mendy Landa <landamendy@gmail.com>"
   ],
   "scripts": {
     "test": "vitest",
@@ -25,7 +25,7 @@
     "lib"
   ],
   "dependencies": {
-    "@react-pdf/fns": "3.1.2",
+    "@rpdf/fns": "3.1.2",
     "bidi-js": "^1.0.2",
     "hyphen": "^1.6.4",
     "unicode-properties": "^1.4.1"

@@ -1,4 +1,4 @@
-import { SafeDocumentNode, SafeNode } from '@react-pdf/layout';
+import { SafeDocumentNode, SafeNode } from '@rpdf/layout';
 
 import { Context } from '../types';
 

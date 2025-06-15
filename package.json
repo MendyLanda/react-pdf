@@ -1,12 +1,12 @@
 {
   "private": true,
-  "name": "@react-pdf/root",
+  "name": "@rpdf/root",
   "version": "2.0.0",
   "license": "MIT",
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "author": "Mendy Landa <landamendy@gmail.com>",
+  "homepage": "https://github.com/mendylanda/react-pdf#readme",
   "type": "module",
-  "repository": "git@github.com:diegomura/react-pdf.git",
+  "repository": "git@github.com:mendylanda/react-pdf.git",
   "workspaces": [
     "packages/*",
     "packages/examples/*",
@@ -20,7 +20,7 @@
     "prepublish": "lerna run build",
     "lint": "eslint packages",
     "test": "vitest",
-    "dev": "lerna run dev --scope @react-pdf/examples --",
+    "dev": "lerna run dev --scope @rpdf/examples --",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "changeset publish"

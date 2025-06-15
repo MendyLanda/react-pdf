@@ -1,4 +1,4 @@
-import _PNG from '@react-pdf/png-js';
+import _PNG from '@rpdf/png-js';
 
 import { Image } from './types';
 

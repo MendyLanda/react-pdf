@@ -1,19 +1,19 @@
 {
-  "name": "@react-pdf/types",
+  "name": "@rpdf/types",
   "version": "2.9.0",
   "license": "MIT",
   "description": "React-pdf TypeScript definitions",
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "author": "Mendy Landa <landamendy@gmail.com>",
+  "homepage": "https://github.com/mendylanda/react-pdf#readme",
   "main": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "https://github.com/mendylanda/react-pdf.git",
     "directory": "packages/types"
   },
   "dependencies": {
-    "@react-pdf/font": "^4.0.2",
-    "@react-pdf/primitives": "^4.1.1",
-    "@react-pdf/stylesheet": "^6.1.0"
+    "@rpdf/font": "^4.0.2",
+    "@rpdf/primitives": "^4.1.1",
+    "@rpdf/stylesheet": "^6.1.0"
   }
 }

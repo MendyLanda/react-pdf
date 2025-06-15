@@ -1,16 +1,16 @@
 {
-  "name": "@react-pdf/reconciler",
+  "name": "@rpdf/reconciler",
   "version": "1.1.4",
   "license": "MIT",
   "description": "Define uninitialized elements",
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "author": "Mendy Landa <landamendy@gmail.com>",
+  "homepage": "https://github.com/mendylanda/react-pdf#readme",
   "type": "module",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "https://github.com/mendylanda/react-pdf.git",
     "directory": "packages/reconciler"
   },
   "scripts": {

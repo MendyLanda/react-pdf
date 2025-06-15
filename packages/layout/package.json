@@ -1,16 +1,16 @@
 {
-  "name": "@react-pdf/layout",
+  "name": "@rpdf/layout",
   "version": "4.4.0",
   "license": "MIT",
   "description": "Resolve document component's layout",
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "author": "Mendy Landa <landamendy@gmail.com>",
+  "homepage": "https://github.com/mendylanda/react-pdf#readme",
   "type": "module",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "https://github.com/mendylanda/react-pdf.git",
     "directory": "packages/layout"
   },
   "scripts": {
@@ -20,12 +20,12 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@react-pdf/fns": "3.1.2",
-    "@react-pdf/image": "^3.0.3",
-    "@react-pdf/primitives": "^4.1.1",
-    "@react-pdf/stylesheet": "^6.1.0",
-    "@react-pdf/textkit": "^6.0.0",
-    "@react-pdf/types": "^2.9.0",
+    "@rpdf/fns": "3.1.2",
+    "@rpdf/image": "^3.0.3",
+    "@rpdf/primitives": "^4.1.1",
+    "@rpdf/stylesheet": "^6.1.0",
+    "@rpdf/textkit": "^6.0.0",
+    "@rpdf/types": "^2.9.0",
     "emoji-regex": "^10.3.0",
     "queue": "^6.0.1",
     "yoga-layout": "^3.2.1"

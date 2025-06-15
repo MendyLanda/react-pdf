@@ -11,7 +11,7 @@ import {
   Select,
   List,
   StyleSheet,
-} from '@react-pdf/renderer';
+} from '@rpdf/renderer';
 
 const styles = StyleSheet.create({
   fieldset: {

@@ -1,5 +1,5 @@
 import type { Glyph as FontkitGlyph } from 'fontkit';
-import type { Font } from '@react-pdf/font';
+import type { Font } from '@rpdf/font';
 import { Factor as JustificationFactor } from './engines/justification/types';
 
 export type Coordinate = {
@@ -136,4 +136,4 @@ export type LayoutOptions = {
   shrinkWhitespaceFactor?: JustificationFactor;
 };
 
-export type { Font } from '@react-pdf/font';
+export type { Font } from '@rpdf/font';

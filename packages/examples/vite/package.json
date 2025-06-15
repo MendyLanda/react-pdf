@@ -1,17 +1,17 @@
 {
-  "name": "@react-pdf/vite-example",
+  "name": "@rpdf/vite-example",
   "version": "3.3.18",
   "license": "MIT",
   "private": true,
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
-  "repository": "git@github.com:diegomura/react-pdf.git",
+  "author": "Mendy Landa <landamendy@gmail.com>",
+  "homepage": "https://github.com/mendylanda/react-pdf#readme",
+  "repository": "git@github.com:mendylanda/react-pdf.git",
   "scripts": {
     "dev": "vite ./src --open",
     "build:site": "vite build ./src"
   },
   "dependencies": {
-    "@react-pdf/renderer": "^4.3.0"
+    "@rpdf/renderer": "^4.3.0"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",

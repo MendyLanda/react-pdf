@@ -1,4 +1,4 @@
-import { adjust, dropLast as arrayDropLast } from '@react-pdf/fns';
+import { adjust, dropLast as arrayDropLast } from '@rpdf/fns';
 
 import runDropLast from '../run/dropLast';
 import { AttributedString } from '../types';

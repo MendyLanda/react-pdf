@@ -7,7 +7,7 @@ import {
   Stop,
   Path,
   G,
-} from '@react-pdf/renderer';
+} from '@rpdf/renderer';
 
 const Car = () => (
   <Svg id="svg2" width="100%" height="600" viewBox="0 0 900 600">

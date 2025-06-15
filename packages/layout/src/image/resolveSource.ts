@@ -1,7 +1,7 @@
 import { SourceObject } from '../types';
 
 /**
- * Resolves `src` to `@react-pdf/image` interface.
+ * Resolves `src` to `@rpdf/image` interface.
  *
  * Also it handles factories and async sources.
  *

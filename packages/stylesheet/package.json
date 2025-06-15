@@ -1,16 +1,16 @@
 {
-  "name": "@react-pdf/stylesheet",
+  "name": "@rpdf/stylesheet",
   "version": "6.1.0",
   "license": "MIT",
   "description": "A styles engine for Node and the browser",
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "author": "Mendy Landa <landamendy@gmail.com>",
+  "homepage": "https://github.com/mendylanda/react-pdf#readme",
   "type": "module",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "https://github.com/mendylanda/react-pdf.git",
     "directory": "packages/stylesheet"
   },
   "scripts": {
@@ -20,8 +20,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@react-pdf/fns": "3.1.2",
-    "@react-pdf/types": "^2.9.0",
+    "@rpdf/fns": "3.1.2",
+    "@rpdf/types": "^2.9.0",
     "color-string": "^1.9.1",
     "hsl-to-hex": "^1.0.0",
     "media-engine": "^1.0.3",

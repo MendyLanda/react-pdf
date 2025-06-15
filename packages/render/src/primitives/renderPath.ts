@@ -1,4 +1,4 @@
-import { SafePathNode } from '@react-pdf/layout';
+import { SafePathNode } from '@rpdf/layout';
 import { Context } from '../types';
 
 const renderPath = (ctx: Context, node: SafePathNode) => {

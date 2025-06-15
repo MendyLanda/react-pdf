@@ -1,5 +1,5 @@
 import * as Yoga from 'yoga-layout/load';
-import { isNil } from '@react-pdf/fns';
+import { isNil } from '@rpdf/fns';
 import { SafeNode } from '../types';
 
 const OVERFLOW = {

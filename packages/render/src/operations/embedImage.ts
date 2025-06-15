@@ -1,4 +1,4 @@
-import { SafeImageNode } from '@react-pdf/layout';
+import { SafeImageNode } from '@rpdf/layout';
 import { Context } from '../types';
 
 const embedImage = (ctx: Context, node: SafeImageNode) => {

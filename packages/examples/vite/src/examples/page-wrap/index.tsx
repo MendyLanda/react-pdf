@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  Document,
-  Font,
-  Text,
-  Page,
-  Image,
-  StyleSheet,
-} from '@react-pdf/renderer';
+import { Document, Font, Text, Page, Image, StyleSheet } from '@rpdf/renderer';
 
 import Quijote1 from '../../../public/quijote1.jpg';
 import Quijote2 from '../../../public/quijote2.png';
