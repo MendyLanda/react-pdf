@@ -8,7 +8,7 @@ import {
   Document,
   Page,
   Text,
-} from '@react-pdf/renderer';
+} from '@rpdf/renderer';
 
 const TestDocument = ({ title = 'Default' }) => (
   <Document title={title}>

@@ -1,4 +1,4 @@
-import { last, compose } from '@react-pdf/fns';
+import { last, compose } from '@rpdf/fns';
 
 import runHeight from '../run/height';
 import runAscent from '../run/ascent';

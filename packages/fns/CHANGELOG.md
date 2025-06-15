@@ -1,4 +1,4 @@
-# @react-pdf/fns
+# @rpdf/fns
 
 ## 3.1.2
 

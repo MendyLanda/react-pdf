@@ -51,7 +51,7 @@ jobs:
 
   release:
     # Prevents this action from running on forks
-    if: github.repository_owner == 'diegomura'
+    if: github.repository_owner == 'mendylanda'
     name: Create Release PR or Publish to npm
     needs: [test]
     runs-on: ubuntu-latest

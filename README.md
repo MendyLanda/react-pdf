@@ -2,13 +2,13 @@
   <img src="https://user-images.githubusercontent.com/5600341/27505816-c8bc37aa-587f-11e7-9a86-08a2d081a8b9.png" height="280px">
   <p align="center">React renderer for creating PDF files on the browser and server<p>
   <p align="center">
-    <a href="https://www.npmjs.com/package/@react-pdf/renderer">
-      <img src="https://img.shields.io/npm/v/@react-pdf/renderer?style=flat&colorA=000000&colorB=000000" />
+    <a href="https://www.npmjs.com/package/@rpdf/renderer">
+      <img src="https://img.shields.io/npm/v/@rpdf/renderer?style=flat&colorA=000000&colorB=000000" />
     </a>
      <a href="https://opencollective.com/react-pdf">
       <img src="https://img.shields.io/opencollective/all/react-pdf?style=flat&colorA=000000&colorB=000000" />
     </a>
-    <a href="https://github.com/diegomura/react-pdf/blob/master/LICENSE">
+    <a href="https://github.com/mendylanda/react-pdf/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/diegomura/react-pdf?style=flat&colorA=000000&colorB=000000" />
     </a>
     <a href="https://blockchain.com/btc/address/bc1qj223udztpmt5dck46dw0yap08yum63ht56h90v">
@@ -21,6 +21,9 @@
 </p>
 
 > [!NOTE]  
+> This is a fork of [react-pdf](https://github.com/diegomura/react-pdf) created to address some issues that have pending pull requests in the original repository. If and when the original repository becomes actively maintained again, this fork may be removed. Special thanks to [Diego Muracciole](https://github.com/diegomura) for creating and maintaining the original project.
+
+> [!NOTE]  
 > Generating PDFs in bulk? [Talk to us.](https://axxy020tu5c.typeform.com/to/eU21hXDy)
 
 ## Lost?
@@ -30,14 +33,14 @@ This package is used to _create_ PDFs using React. If you wish to _display_ exis
 ## How to install
 
 ```sh
-yarn add @react-pdf/renderer
+yarn add @rpdf/renderer
 ```
 
 ## How it works
 
 ```jsx
 import React from 'react';
-import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet } from '@rpdf/renderer';
 
 // Create styles
 const styles = StyleSheet.create({
@@ -72,7 +75,7 @@ const MyDocument = () => (
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { PDFViewer } from '@react-pdf/renderer';
+import { PDFViewer } from '@rpdf/renderer';
 
 const App = () => (
   <PDFViewer>
@@ -87,16 +90,16 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 ```jsx
 import React from 'react';
-import ReactPDF from '@react-pdf/renderer';
+import ReactPDF from '@rpdf/renderer';
 
 ReactPDF.render(<MyDocument />, `${__dirname}/example.pdf`);
 ```
 
 ## Contributors
 
-This project exists thanks to all the people who contribute. Looking to contribute? Please check our [[contribute]](https://github.com/diegomura/react-pdf/blob/master/.github/CONTRIBUTING.md) document for more details about how to setup a development environment and submitting code.
+This project exists thanks to all the people who contribute. Looking to contribute? Please check our [[contribute]](https://github.com/mendylanda/react-pdf/blob/master/.github/CONTRIBUTING.md) document for more details about how to setup a development environment and submitting code.
 
-<a href="https://github.com/diegomura/react-pdf/blob/master/.github/CONTRIBUTING.md"><img src="https://opencollective.com/react-pdf/contributors.svg?width=890" /></a>
+<a href="https://github.com/mendylanda/react-pdf/blob/master/.github/CONTRIBUTING.md"><img src="https://opencollective.com/react-pdf/contributors.svg?width=890" /></a>
 
 ## Sponsors
 
@@ -116,4 +119,4 @@ MIT © [Diego Muracciole](http://github.com/diegomura)
 
 ---
 
-![](https://img.shields.io/npm/dt/@react-pdf/renderer.svg?style=flat)
+![](https://img.shields.io/npm/dt/@rpdf/renderer.svg?style=flat)

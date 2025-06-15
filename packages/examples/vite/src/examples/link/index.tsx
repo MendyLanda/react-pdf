@@ -1,5 +1,5 @@
 import React from 'react';
-import { Document, Page, Link, Text, View } from '@react-pdf/renderer';
+import { Document, Page, Link, Text, View } from '@rpdf/renderer';
 
 const LinkExample = () => (
   <Document>

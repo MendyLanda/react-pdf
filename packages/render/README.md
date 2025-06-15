@@ -2,21 +2,21 @@
   <img src="https://user-images.githubusercontent.com/5600341/27505816-c8bc37aa-587f-11e7-9a86-08a2d081a8b9.png" height="280px">
 </p>
 
-# @react-pdf/render
+# @rpdf/render
 
 > React-pdf render engine
 
 ## How to install
 
 ```sh
-yarn add @react-pdf/render
+yarn add @rpdf/render
 ```
 
 ## How it works
 
 ```js
-import render from '@react-pdf/render';
-import primitives from '@react-pdf/primitives';
+import render from '@rpdf/render';
+import primitives from '@rpdf/primitives';
 
 const view = {
   type: primitives.View,
@@ -75,7 +75,7 @@ Bare in mind this package does not handle any type of node positioning, inherita
 
 ### node.type
 
-Mandatory field specifiying the type of the particular node. The full list of types can be found and imported from `@react-pdf/primitives`
+Mandatory field specifiying the type of the particular node. The full list of types can be found and imported from `@rpdf/primitives`
 
 ### node.box
 
@@ -124,8 +124,8 @@ Specific node params needed to render correctly ot behave like certain way. Spec
 
 ```js
 import fs from 'fs';
-import render from '@react-pdf/render';
-import pdfkit from '@react-pdf/pdfkit';
+import render from '@rpdf/render';
+import pdfkit from '@rpdf/pdfkit';
 
 const PDFDocument = pdfkit.default;
 

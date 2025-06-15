@@ -1,6 +1,6 @@
 /* eslint-disable no-return-assign */
 
-import { Glyph, Position } from '@react-pdf/textkit';
+import { Glyph, Position } from '@rpdf/textkit';
 import { Context } from '../types';
 
 const number = (n: number) => {

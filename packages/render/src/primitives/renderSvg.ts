@@ -1,12 +1,12 @@
-import * as P from '@react-pdf/primitives';
-import { isNil } from '@react-pdf/fns';
-import { Transform } from '@react-pdf/stylesheet';
+import * as P from '@rpdf/primitives';
+import { isNil } from '@rpdf/fns';
+import { Transform } from '@rpdf/stylesheet';
 import {
   SafeLinearGradientNode,
   SafeNode,
   SafeRadialGradientNode,
   SafeSvgNode,
-} from '@react-pdf/layout';
+} from '@rpdf/layout';
 
 import renderPath from './renderPath';
 import renderRect from './renderRect';

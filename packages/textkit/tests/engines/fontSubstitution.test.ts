@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
 
-import FontStore from '@react-pdf/font';
+import FontStore from '@rpdf/font';
 
 import fontSubstitution from '../../src/engines/fontSubstitution';
 

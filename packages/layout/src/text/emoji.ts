@@ -1,6 +1,6 @@
 import emojiRegex from 'emoji-regex';
-import resolveImage from '@react-pdf/image';
-import { Fragment } from '@react-pdf/textkit';
+import resolveImage from '@rpdf/image';
+import { Fragment } from '@rpdf/textkit';
 
 import { EmojiSource } from '../../../types';
 

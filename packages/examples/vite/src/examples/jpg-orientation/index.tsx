@@ -1,5 +1,5 @@
 import React from 'react';
-import { Document, Page, Image, View } from '@react-pdf/renderer';
+import { Document, Page, Image, View } from '@rpdf/renderer';
 
 import Orientation1 from './images/orientation-1.jpeg';
 import Orientation2 from './images/orientation-2.jpeg';

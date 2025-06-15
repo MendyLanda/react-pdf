@@ -1,5 +1,5 @@
-import { SafeNode } from '@react-pdf/layout';
-import { Transform } from '@react-pdf/stylesheet';
+import { SafeNode } from '@rpdf/layout';
+import { Transform } from '@rpdf/stylesheet';
 
 import { Context } from '../types';
 

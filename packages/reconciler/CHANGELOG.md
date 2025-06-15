@@ -1,4 +1,4 @@
-# @react-pdf/reconciler
+# @rpdf/reconciler
 
 ## 1.1.4
 

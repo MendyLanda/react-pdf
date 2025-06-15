@@ -1,9 +1,9 @@
-import { isNil } from '@react-pdf/fns';
+import { isNil } from '@rpdf/fns';
 
 import renderGlyphs from './renderGlyphs';
 import parseColor from '../utils/parseColor';
 import { Context } from '../types';
-import { SafeTextNode } from '@react-pdf/layout';
+import { SafeTextNode } from '@rpdf/layout';
 import {
   Attachment,
   AttributedString,
@@ -11,7 +11,7 @@ import {
   Paragraph,
   Rect,
   Run,
-} from '@react-pdf/textkit';
+} from '@rpdf/textkit';
 
 const DEST_REGEXP = /^#.+/;
 

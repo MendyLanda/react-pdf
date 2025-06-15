@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, Document, Link, View, Image } from '@react-pdf/renderer';
+import { Page, Document, Link, View, Image } from '@rpdf/renderer';
 
 const GoTo = () => (
   <Document>

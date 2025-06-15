@@ -1,6 +1,6 @@
-import * as P from '@react-pdf/primitives';
-import FontStore from '@react-pdf/font';
-import resolveStyle, { transformColor } from '@react-pdf/stylesheet';
+import * as P from '@rpdf/primitives';
+import FontStore from '@rpdf/font';
+import resolveStyle, { transformColor } from '@rpdf/stylesheet';
 import {
   pick,
   evolve,
@@ -8,7 +8,7 @@ import {
   mapValues,
   matchPercent,
   parseFloat,
-} from '@react-pdf/fns';
+} from '@rpdf/fns';
 
 import layoutText from '../svg/layoutText';
 import replaceDefs from '../svg/replaceDefs';

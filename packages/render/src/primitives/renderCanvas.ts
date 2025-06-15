@@ -1,4 +1,4 @@
-import { SafeCanvasNode } from '@react-pdf/layout';
+import { SafeCanvasNode } from '@rpdf/layout';
 import { Context } from '../types';
 
 const availableMethods = [

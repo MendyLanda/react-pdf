@@ -9,7 +9,7 @@ import {
   Image,
   Document,
   StyleSheet,
-} from '@react-pdf/renderer';
+} from '@rpdf/renderer';
 import renderToImage from './renderComponent';
 
 const headerStyles = StyleSheet.create({

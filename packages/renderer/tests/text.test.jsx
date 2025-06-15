@@ -8,7 +8,7 @@ import {
   Link,
   Font,
   StyleSheet,
-} from '@react-pdf/renderer';
+} from '@rpdf/renderer';
 import renderToImage from './renderComponent';
 
 const styles = StyleSheet.create({

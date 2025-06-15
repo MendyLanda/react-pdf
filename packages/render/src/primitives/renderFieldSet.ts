@@ -1,4 +1,4 @@
-import { SafeFieldSetNode } from '@react-pdf/layout';
+import { SafeFieldSetNode } from '@rpdf/layout';
 import { Context, RenderOptions } from '../types';
 
 const renderFieldSet = (

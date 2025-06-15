@@ -13,7 +13,7 @@ import {
   RadialGradient,
   Stop,
   Line,
-} from '@react-pdf/renderer';
+} from '@rpdf/renderer';
 
 export const Tiger = () => (
   <Svg style={{ width: 400, height: 400 }}>

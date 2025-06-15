@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import FontStore from '@react-pdf/font';
+import FontStore from '@rpdf/font';
 
 import { loadYoga } from '../../src/yoga';
 import resolvePagination from '../../src/steps/resolvePagination';

@@ -1,4 +1,4 @@
-import { SafeTextInputNode } from '@react-pdf/layout';
+import { SafeTextInputNode } from '@rpdf/layout';
 
 import { Context, RenderOptions } from '../types';
 import { parseTextInputOptions } from '../utils/parseFormOptions';

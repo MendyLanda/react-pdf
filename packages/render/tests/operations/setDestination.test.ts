@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
 
-import * as P from '@react-pdf/primitives';
-import { SafeNode } from '@react-pdf/layout';
+import * as P from '@rpdf/primitives';
+import { SafeNode } from '@rpdf/layout';
 
 import createCTX from '../ctx';
 import setDestination from '../../src/operations/setDestination';

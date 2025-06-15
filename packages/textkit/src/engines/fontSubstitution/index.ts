@@ -1,4 +1,4 @@
-import { last } from '@react-pdf/fns';
+import { last } from '@rpdf/fns';
 import { AttributedString, Font, Run } from '../../types';
 
 const IGNORED_CODE_POINTS = [173];

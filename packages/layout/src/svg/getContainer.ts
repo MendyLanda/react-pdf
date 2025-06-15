@@ -1,4 +1,4 @@
-import { parseFloat } from '@react-pdf/fns';
+import { parseFloat } from '@rpdf/fns';
 
 import parseViewBox from './parseViewbox';
 import { SafeSvgNode } from '../types';

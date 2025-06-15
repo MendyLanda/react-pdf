@@ -1,4 +1,4 @@
-import { SafeLineNode } from '@react-pdf/layout';
+import { SafeLineNode } from '@rpdf/layout';
 import { Context } from '../types';
 
 const renderLine = (ctx: Context, node: SafeLineNode) => {

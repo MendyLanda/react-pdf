@@ -1,8 +1,9 @@
+/* eslint-disable no-undef */
 const fs = require('node:fs/promises');
 const assert = require('node:assert');
 const { test } = require('node:test');
 const { jsx } = require('react/jsx-runtime');
-const { Document, Page, Text, renderToBuffer } = require('@react-pdf/renderer');
+const { Document, Page, Text, renderToBuffer } = require('@rpdf/renderer');
 
 const MyDocument = () =>
   jsx(Document, {

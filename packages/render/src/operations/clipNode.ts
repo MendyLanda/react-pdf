@@ -1,6 +1,6 @@
 // This constant is used to approximate a symmetrical arc using a cubic
 
-import { SafeNode } from '@react-pdf/layout';
+import { SafeNode } from '@rpdf/layout';
 import { Context } from '../types';
 
 // Bezier curve.

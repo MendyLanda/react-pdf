@@ -1,6 +1,6 @@
 import hyphen from 'hyphen';
 import pattern from 'hyphen/patterns/en-us.js';
-import { isNil } from '@react-pdf/fns';
+import { isNil } from '@rpdf/fns';
 
 const SOFT_HYPHEN = '\u00ad';
 const hyphenator = hyphen(pattern);

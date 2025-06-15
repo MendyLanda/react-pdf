@@ -1,4 +1,4 @@
-import { last } from '@react-pdf/fns';
+import { last } from '@rpdf/fns';
 import { AttributedString } from '../types';
 
 /**
