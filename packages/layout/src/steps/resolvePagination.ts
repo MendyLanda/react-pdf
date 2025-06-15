@@ -55,7 +55,12 @@ const warnUnavailableSpace = (node: SafeNode) => {
   );
 };
 
-const splitNodes = (height: number, contentArea: number, nodes: SafeNode[]) => {
+const splitNodes = (
+  height: number,
+  contentArea: number,
+  paddingTop: number,
+  nodes: SafeNode[],
+) => {
   const currentChildren: SafeNode[] = [];
   const nextChildren: SafeNode[] = [];
 
@@ -67,7 +72,7 @@ const splitNodes = (height: number, contentArea: number, nodes: SafeNode[]) => {
     const nodeTop = getTop(child);
     const nodeHeight = child.box.height;
     const isOutside = height <= nodeTop;
-    const shouldBreak = shouldNodeBreak(child, futureNodes, height);
+    const shouldBreak = shouldNodeBreak(child, futureNodes, height, paddingTop);
     const shouldSplit = height + SAFETY_THRESHOLD < nodeTop + nodeHeight;
     const canWrap = canNodeWrap(child);
     const fitsInsidePage = nodeHeight <= contentArea;
@@ -106,7 +111,12 @@ const splitNodes = (height: number, contentArea: number, nodes: SafeNode[]) => {
     }
 
     if (shouldSplit) {
-      const [currentChild, nextChild] = split(child, height, contentArea);
+      const [currentChild, nextChild] = split(
+        child,
+        height,
+        contentArea,
+        paddingTop,
+      );
 
       // All children are moved to the next page, it doesn't make sense to show the parent on the current page
       if (child.children.length > 0 && currentChild.children.length === 0) {
@@ -138,17 +148,28 @@ const splitNodes = (height: number, contentArea: number, nodes: SafeNode[]) => {
   return [currentChildren, nextChildren];
 };
 
-const splitChildren = (height: number, contentArea: number, node: SafeNode) => {
+const splitChildren = (
+  height: number,
+  contentArea: number,
+  paddingTop: number,
+  node: SafeNode,
+) => {
   const children = node.children || [];
   const availableHeight = height - getTop(node);
-  return splitNodes(availableHeight, contentArea, children);
+  return splitNodes(availableHeight, contentArea, paddingTop, children);
 };
 
-const splitView = (node: SafeNode, height: number, contentArea: number) => {
+const splitView = (
+  node: SafeNode,
+  height: number,
+  contentArea: number,
+  paddingTop: number,
+) => {
   const [currentNode, nextNode] = splitNode(node, height);
   const [currentChilds, nextChildren] = splitChildren(
     height,
     contentArea,
+    paddingTop,
     node,
   );
 
@@ -158,8 +179,15 @@ const splitView = (node: SafeNode, height: number, contentArea: number) => {
   ];
 };
 
-const split = (node: SafeNode, height: number, contentArea: number) =>
-  isText(node) ? splitText(node, height) : splitView(node, height, contentArea);
+const split = (
+  node: SafeNode,
+  height: number,
+  contentArea: number,
+  paddingTop: number,
+) =>
+  isText(node)
+    ? splitText(node, height)
+    : splitView(node, height, contentArea, paddingTop);
 
 const shouldResolveDynamicNodes = (node: SafeNode) => {
   const children = node.children || [];
@@ -217,13 +245,14 @@ const splitPage = (
   yoga: YogaInstance,
 ): SafePageNode[] => {
   const wrapArea = getWrapArea(page);
-  const contentArea = getContentArea(page);
+  const { contentArea, paddingTop } = getContentArea(page);
   const dynamicPage = resolveDynamicPage({ pageNumber }, page, fontStore, yoga);
   const height = page.style.height;
 
   const [currentChilds, nextChilds] = splitNodes(
     wrapArea,
     contentArea,
+    paddingTop,
     dynamicPage.children,
   );
 

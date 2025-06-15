@@ -31,6 +31,7 @@ const shouldBreak = (
   child: SafeNode,
   futureElements: SafeNode[],
   height: number,
+  paddingTop: number,
 ) => {
   if ('fixed' in child.props) return false;
 
@@ -42,7 +43,8 @@ const shouldBreak = (
 
   // If the child is already at the top of the page, breaking won't improve its presence
   // (as long as react-pdf does not support breaking into differently sized containers)
-  const breakingImprovesPresence = child.box.top > child.box.marginTop;
+  const breakingImprovesPresence =
+    child.box.top > child.box.marginTop + paddingTop;
 
   return (
     getBreak(child) ||

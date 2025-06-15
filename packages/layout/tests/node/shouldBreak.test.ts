@@ -2,6 +2,7 @@ import { describe, expect, test } from 'vitest';
 
 import * as P from '@rpdf/primitives';
 import shouldBreak from '../../src/node/shouldBreak';
+import { SafeNode } from '../../src/types';
 
 describe('node shouldBreak', () => {
   test('should not break when the child has enough space on the page', () => {
@@ -15,6 +16,7 @@ describe('node shouldBreak', () => {
       },
       [],
       1000,
+      0,
     );
 
     expect(result).toEqual(false);
@@ -31,6 +33,7 @@ describe('node shouldBreak', () => {
       },
       [],
       1000,
+      0,
     );
 
     expect(result).toEqual(true);
@@ -54,6 +57,7 @@ describe('node shouldBreak', () => {
       },
       [],
       1000,
+      0,
     );
 
     expect(result).toEqual(false);
@@ -77,6 +81,7 @@ describe('node shouldBreak', () => {
       },
       [],
       1000,
+      0,
     );
 
     expect(result).toEqual(true);
@@ -100,6 +105,7 @@ describe('node shouldBreak', () => {
       },
       [],
       1000,
+      0,
     );
 
     expect(result).toEqual(true);
@@ -142,6 +148,7 @@ describe('node shouldBreak', () => {
         },
       ],
       1000,
+      0,
     );
 
     expect(result).toEqual(true);
@@ -184,6 +191,7 @@ describe('node shouldBreak', () => {
         },
       ],
       1000,
+      0,
     );
 
     expect(result).toEqual(true);
@@ -226,6 +234,7 @@ describe('node shouldBreak', () => {
         },
       ],
       1000,
+      0,
     );
 
     expect(result).toEqual(false);
@@ -268,6 +277,7 @@ describe('node shouldBreak', () => {
         },
       ],
       1000,
+      0,
     );
 
     expect(result).toEqual(false);
@@ -310,6 +320,7 @@ describe('node shouldBreak', () => {
         },
       ],
       1000,
+      0,
     );
 
     expect(result).toEqual(false);
@@ -352,6 +363,7 @@ describe('node shouldBreak', () => {
         },
       ],
       1000,
+      0,
     );
 
     expect(result).toEqual(false);
@@ -394,6 +406,26 @@ describe('node shouldBreak', () => {
         },
       ],
       1000,
+      0,
+    );
+
+    expect(result).toEqual(false);
+  });
+
+  test('should consider padding when breaking on minPresenceAhead', () => {
+    const result = shouldBreak(
+      {
+        box: { top: 550, height: 400, marginTop: 500, marginBottom: 0 },
+        props: { minPresenceAhead: 400 },
+      } as SafeNode,
+      [
+        {
+          box: { top: 900, height: 200, marginTop: 0, marginBottom: 0 },
+          props: {},
+        } as SafeNode,
+      ],
+      1000,
+      50,
     );
 
     expect(result).toEqual(false);
@@ -436,6 +468,7 @@ describe('node shouldBreak', () => {
         },
       ],
       1000,
+      0,
     );
 
     expect(result).toEqual(false);
@@ -478,6 +511,7 @@ describe('node shouldBreak', () => {
         },
       ],
       1000,
+      0,
     );
 
     expect(result).toEqual(false);
@@ -536,6 +570,7 @@ describe('node shouldBreak', () => {
         },
       ],
       811.89,
+      0,
     );
 
     expect(result).toEqual(false);
@@ -594,6 +629,7 @@ describe('node shouldBreak', () => {
         },
       ],
       811.89,
+      0,
     );
 
     expect(result).toEqual(false);
@@ -721,6 +757,7 @@ describe('node shouldBreak', () => {
         },
       ],
       781.89,
+      0,
     );
 
     expect(result).toEqual(false);
@@ -763,6 +800,7 @@ describe('node shouldBreak', () => {
         },
       ],
       776.89,
+      0,
     );
 
     expect(result).toEqual(false);
