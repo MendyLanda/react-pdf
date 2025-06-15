@@ -9,7 +9,19 @@
 ## How to install
 
 ```sh
+npm install @rpdf/types
+```
+
+```sh
+pnpm add @rpdf/types
+```
+
+```sh
 yarn add @rpdf/types
+```
+
+```sh
+bun add @rpdf/types
 ```
 
 ## License

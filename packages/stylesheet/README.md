@@ -9,7 +9,19 @@
 ## How to install
 
 ```sh
+npm install @rpdf/stylesheet
+```
+
+```sh
+pnpm add @rpdf/stylesheet
+```
+
+```sh
 yarn add @rpdf/stylesheet
+```
+
+```sh
+bun add @rpdf/stylesheet
 ```
 
 ## How it works

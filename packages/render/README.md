@@ -9,7 +9,19 @@
 ## How to install
 
 ```sh
+npm install @rpdf/render
+```
+
+```sh
+pnpm add @rpdf/render
+```
+
+```sh
 yarn add @rpdf/render
+```
+
+```sh
+bun add @rpdf/render
 ```
 
 ## How it works

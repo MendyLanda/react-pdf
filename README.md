@@ -33,7 +33,19 @@ This package is used to _create_ PDFs using React. If you wish to _display_ exis
 ## How to install
 
 ```sh
+npm install @rpdf/renderer
+```
+
+```sh
+pnpm add @rpdf/renderer
+```
+
+```sh
 yarn add @rpdf/renderer
+```
+
+```sh
+bun add @rpdf/renderer
 ```
 
 ## How it works

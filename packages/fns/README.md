@@ -9,5 +9,17 @@
 ## How to install
 
 ```sh
+npm install @rpdf/fns
+```
+
+```sh
+pnpm add @rpdf/fns
+```
+
+```sh
 yarn add @rpdf/fns
+```
+
+```sh
+bun add @rpdf/fns
 ```
