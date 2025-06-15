@@ -1,5 +1,12 @@
 # @rpdf/e2e-node-esm
 
+## 2.0.23
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @rpdf/renderer@4.3.1
+
 ## 2.0.22
 
 ### Patch Changes

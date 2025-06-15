@@ -1,6 +1,6 @@
 {
   "name": "@rpdf/render",
-  "version": "4.3.0",
+  "version": "4.3.1",
   "license": "MIT",
   "description": "A render engine for Node and the browser",
   "author": "Mendy Landa <landamendy@gmail.com>",
@@ -23,7 +23,7 @@
     "@rpdf/fns": "3.1.2",
     "@rpdf/primitives": "^4.1.1",
     "@rpdf/textkit": "^6.0.0",
-    "@rpdf/types": "^2.9.0",
+    "@rpdf/types": "^2.9.1",
     "abs-svg-path": "^0.1.1",
     "color-string": "^1.9.1",
     "normalize-svg-path": "^1.1.0",
@@ -31,7 +31,7 @@
     "svg-arc-to-cubic-bezier": "^3.2.0"
   },
   "devDependencies": {
-    "@rpdf/layout": "^4.4.0",
+    "@rpdf/layout": "^4.4.1",
     "@types/abs-svg-path": "^0.1.3",
     "@types/color-string": "^1.5.5",
     "@types/pdfkit": "^0.13.9"

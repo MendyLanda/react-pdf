@@ -1,5 +1,11 @@
 # @rpdf/pdfkit
 
+## 4.1.0
+
+### Minor Changes
+
+- [`22dd565b`](https://github.com/diegomura/react-pdf/commit/22dd565bf9ef9531de7fcd7cc239c9e23ba1bf4b) Thanks [@klimeryk](https://github.com/klimeryk)! - Add encryption support and access privileges
+
 ## 4.0.3
 
 ### Patch Changes

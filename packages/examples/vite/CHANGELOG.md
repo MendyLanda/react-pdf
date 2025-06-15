@@ -1,5 +1,12 @@
 # @rpdf/examples
 
+## 3.3.19
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @rpdf/renderer@4.3.1
+
 ## 3.3.18
 
 ### Patch Changes

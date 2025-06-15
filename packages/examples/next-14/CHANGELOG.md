@@ -1,5 +1,12 @@
 # next-14
 
+## 0.1.16
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @rpdf/renderer@4.3.1
+
 ## 0.1.15
 
 ### Patch Changes

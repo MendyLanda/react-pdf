@@ -1,5 +1,12 @@
 # @rpdf/stylesheet
 
+## 6.1.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @rpdf/types@2.9.1
+
 ## 6.1.0
 
 ### Minor Changes

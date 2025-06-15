@@ -1,5 +1,12 @@
 # @rpdf/render
 
+## 4.3.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @rpdf/types@2.9.1
+
 ## 4.3.0
 
 ### Minor Changes

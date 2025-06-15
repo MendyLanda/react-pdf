@@ -1,5 +1,16 @@
 # @rpdf/renderer
 
+## 4.3.1
+
+### Patch Changes
+
+- Updated dependencies [[`22dd565b`](https://github.com/diegomura/react-pdf/commit/22dd565bf9ef9531de7fcd7cc239c9e23ba1bf4b)]:
+  - @rpdf/pdfkit@4.1.0
+  - @rpdf/font@4.0.3
+  - @rpdf/types@2.9.1
+  - @rpdf/layout@4.4.1
+  - @rpdf/render@4.3.1
+
 ## 4.3.0
 
 ### Minor Changes

@@ -1,6 +1,6 @@
 {
   "name": "@rpdf/e2e-node-cjs",
-  "version": "2.0.22",
+  "version": "2.0.23",
   "license": "MIT",
   "private": true,
   "type": "commonjs",
@@ -12,7 +12,7 @@
     "start": "node ./index.js"
   },
   "dependencies": {
-    "@rpdf/renderer": "^4.3.0",
+    "@rpdf/renderer": "^4.3.1",
     "react": "^18.2.0"
   }
 }
