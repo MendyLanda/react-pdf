@@ -118,7 +118,7 @@ class PDFDocument extends stream.Readable {
     this._id = PDFSecurity.generateFileID(this.info);
 
     // Initialize security settings
-    // this._security = PDFSecurity.create(this, options);
+    this._security = PDFSecurity.create(this, options);
 
     // Write the header
     // PDF version
@@ -342,6 +342,7 @@ class PDFDocument extends stream.Readable {
       Info: this._info,
       ID: [this._id, this._id]
     };
+
     if (this._security) {
       trailer.Encrypt = this._security.dictionary;
     }
