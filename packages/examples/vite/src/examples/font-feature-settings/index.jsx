@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   },
   headline: {
     fontFamily: 'Roboto',
-    fontSize: '24',
+    fontSize: 24,
     paddingVertical: 12,
   },
   rubik: {
