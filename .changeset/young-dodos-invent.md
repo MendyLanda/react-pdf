@@ -1,5 +1,5 @@
 ---
-"@react-pdf/pdfkit": minor
+"@rpdf/pdfkit": minor
 ---
 
 Add encryption support and access privileges
