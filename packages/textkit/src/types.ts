@@ -1,5 +1,6 @@
 import type { Glyph as FontkitGlyph } from 'fontkit';
 import type { Font } from '@rpdf/font';
+import type { FontFeatureSettings } from '@rpdf/stylesheet';
 import { Factor as JustificationFactor } from './engines/justification/types';
 
 export type Coordinate = {
@@ -51,7 +52,7 @@ export type Attributes = {
   characterSpacing?: number;
   color?: string;
   direction?: 'rtl' | 'ltr';
-  features?: string[] | Record<string, number>;
+  features?: FontFeatureSettings;
   fill?: boolean;
   font?: Font[];
   fontSize?: number;
