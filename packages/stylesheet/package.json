@@ -1,6 +1,6 @@
 {
   "name": "@rpdf/stylesheet",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "license": "MIT",
   "description": "A styles engine for Node and the browser",
   "author": "Mendy Landa <landamendy@gmail.com>",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@rpdf/fns": "3.1.2",
-    "@rpdf/types": "^2.9.0",
+    "@rpdf/types": "^2.9.1",
     "color-string": "^1.9.1",
     "hsl-to-hex": "^1.0.0",
     "media-engine": "^1.0.3",

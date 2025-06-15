@@ -1,5 +1,13 @@
 # @rpdf/layout
 
+## 4.4.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @rpdf/types@2.9.1
+  - @rpdf/stylesheet@6.1.1
+
 ## 4.4.0
 
 ### Minor Changes
